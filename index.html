@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  
+  
+  <div class="container">
+    <div id="fot" ></div>
+    <div class="question-div">
+      <img src="/files/photos/ok.png" style="display: none">
+      <h2 id="question"></h2>
+      <div id="options"></div>
+      <p id="result"></p>
+      <div id="image-container" class="hide">
+        <img id="image" src="" alt="">
+      </div>
+      <div id="time-container">
+        <div id="time-remaining"></div>
+        <p id="time"></p>
+      </div>
+    </div>
+    <div id="final-result"></div>
+    <button id="restart-btn" onclick="restartGame()">Reiniciar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
