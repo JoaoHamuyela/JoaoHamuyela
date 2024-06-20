@@ -34,11 +34,7 @@ let perguntas = [
           opcoes: ['5', '7','27', '13'],
           resposta: 0,
   },
-  {
-          pergunta:'',
-          opcoes:['','','',''],
-          resposta: ,
-  },
+  
   // Adicione mais perguntas com fotos aqui
 ];
 
