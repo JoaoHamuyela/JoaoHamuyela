@@ -34,7 +34,11 @@ let perguntas = [
           opcoes: ['5', '7','27', '13'],
           resposta: 0,
   },
-  
+    {
+    pergunta: "Quem é o fundador deste jogo?",
+    opcoes: ["Miguel Oliveira", "Paulo Fernandes", "Ricardo Silva", "João Hamuyela"],
+    resposta: 3,
+},
   // Adicione mais perguntas com fotos aqui
 ];
 
